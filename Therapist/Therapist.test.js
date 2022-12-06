@@ -1,4 +1,4 @@
-import Therapist from "./Therapist.js";
+const Therapist = require("./Therapist.js")
 
 describe("Test of the class Therapist", () => {
     test("check if the instance Therapist is correct.", () => {

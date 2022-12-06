@@ -10,8 +10,10 @@ class Therapist {
         this.#cpf = cpf;
         this.#email = email;
         this.#telefone = telefone;
-        this.#city = city;
-        this.#state = state
+        this.city = city;
+        this.state = state
     }
 
 }
+
+module.exports = Therapist;
