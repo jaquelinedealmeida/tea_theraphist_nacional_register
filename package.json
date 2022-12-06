@@ -1,0 +1,14 @@
+{
+  "name": "tea_theraphist_nacional_register",
+  "version": "1.0.0",
+  "description": "TEA Theraphist Nacional Register",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Jaqueline Almeida",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
