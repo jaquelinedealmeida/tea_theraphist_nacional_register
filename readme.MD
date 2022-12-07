@@ -27,3 +27,19 @@ Dessa maneira, o projeto de cadastro nacional de terapeutas especialistas na are
 
 Fonte: [Ministério da Saúde](https://www.gov.br/saude/pt-br/assuntos/noticias/2022/abril/tea-saiba-o-que-e-o-transtorno-do-espectro-autista-e-como-o-sus-tem-dado-assistencia-a-pacientes-e-familiares)
 [Ministério da Saúde - Linha de Cuidado](https://linhasdecuidado.saude.gov.br/portal/transtorno-do-espectro-autista/definicao-tea/)
+
+
+class Thursday extends Week {
+  constructor(id, name, description) {
+    super(id, name, description);
+    this.constructor.Thursdays.push({
+      id: this.id,
+      name: this.name,
+      description: this.description,
+    });
+  }
+
+  static Thursdays = [];
+}
+
+module.exports = Thursday;

@@ -1,11 +1,15 @@
 class Therapist {
-    name;
-    #cpf;
-    #email;
-    #telefone;
-    city;
-    state;
+  name;
+  #cpf;
+  #email;
+  #telefone;
+  city;
+  state;
+
     registerTherapist(name, cpf, email, telefone, city, state){
+      if (!name || !cpf || !email || !telefone || !city || !state) {
+        throw new Error("Datas are incomplete. Register not is correct.");
+      } 
         this.name = name;
         this.#cpf = cpf;
         this.#email = email;
@@ -13,13 +17,12 @@ class Therapist {
         this.city = city;
         this.state = state
 
-        return "Therapist was registered with successful.";
-        // throw new ("Register not is correct.") ;
+        return "Therapist was registered with successful."
+        
     }
+
 }
-
-
-therapist = new Therapist()
-therapist.registerTherapist("Maria", "04567898710", "maria@email.com", "719898989", "Salvador")
+const therapist = new Therapist
+therapist.registerTherapist("Maria", "04567898710", "maria@email.com", "719898989", "Salvador", "Bahia")
 
 module.exports = Therapist;
