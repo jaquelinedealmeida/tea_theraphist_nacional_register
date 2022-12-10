@@ -15,7 +15,7 @@ describe("Test of the class TherapistAba", () => {
 
   test("Check if certifications are corrects", () => {
     const therapistAba = new TherapistAba("Samira Fernandes", "87694736781", "CRP 004-RJ", "samisf@email.com", "21 38398-9890", "Rio de Janeiro", "Rio de Janeiro", true, "Master");
-    expect(therapistAba.validateCertificationsAba("Master")).toBe("Therapist registered with successful.");
+    expect(therapistAba.validateCertificationsAba("BCPA")).toBe("Therapist registered with successful.");
 });
 
 test("Verify that the certifications are not correct.", () => {

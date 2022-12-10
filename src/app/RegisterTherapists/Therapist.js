@@ -73,9 +73,10 @@ class Therapist {
 }
 
 const therapist = new Therapist("Maria Santana", "04567898710", "maria@email.com", "71 989898989", "Salvador", "Bahia", true);
+therapist.validateCpf;
 console.log(therapist);
 
-console.log(therapist.valueCpf);
+console.log(therapist.validateCpf("04567898710"));
 
 
 export default Therapist;

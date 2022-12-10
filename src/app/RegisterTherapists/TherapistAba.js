@@ -10,16 +10,17 @@ class TherapistAba extends Therapist {
     if (!crp) {
       throw new Error("It's necessary the CRP's number.");
     } 
+    console.log("The CRP's number is correct.");
+    
     super(fullName, cpf, email, telephone, city, state, curriculum) 
     this.crp = crp;
     this.validateCertificationsAba(certificationsAba);
-    console.log("The CRP's number is correct.");
   }
 
   validateCertificationsAba(certificationsAba){
     this.certificationsAba = certificationsAba;
 
-    if(certifications.indexOf(certificationsAba) > - 1){
+    if(certifications.indexOf(certificationsAba) > -1){
      return "Therapist registered with successful."
      
     }else {
@@ -28,12 +29,11 @@ class TherapistAba extends Therapist {
   }
 }
 
-const therapistAba = new TherapistAba("Samira Fernandes", "87694736781", "CRP 004-RJ", "samisf@email.com", "21 38398-9890", "Rio de Janeiro", "Rio de Janeiro", true, "Master");
-therapistAba.validateCertificationsAba("Master")
-// therapistAba.validationCertificates("certificationsAba");
+const therapistAba = new TherapistAba("Samira Fernandes", "87694736781", "CRP 004-RJ", "samisf@email.com", "21 38398-9890", "Rio de Janeiro", "Rio de Janeiro", true, "BCPA");
+therapistAba.validateCertificationsAba("BCPA")
 
 console.log(therapistAba);
-console.log(therapistAba.validateCertificationsAba("Master"));
+console.log(therapistAba.validateCertificationsAba("BCPA"));
 
 export default TherapistAba;
 
