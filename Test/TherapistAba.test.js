@@ -1,5 +1,4 @@
-import TherapistAba from "../src/app/registerTherapists/TherapistAba.js"
-
+import {TherapistAba} from "../src/app/registerTherapists/TherapistAba.js"
 
 describe("Test of the class TherapistAba", () => {
 

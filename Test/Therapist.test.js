@@ -1,4 +1,4 @@
-import Therapist from "../src/app/registerTherapists/Therapist.js"
+import {Therapist} from "../src/app/registerTherapists/Therapist.js"
 describe("Test of the class Therapist", () => {
  
     test("Check if the instance Therapist is correct.", () => {
