@@ -1,4 +1,4 @@
-import {Therapist }from './therapist.js'
+import {Therapist }from './Therapist.js'
 import {certifications} from '../certifications/certifications.js'
 class OccupationalTherapist extends Therapist {
 

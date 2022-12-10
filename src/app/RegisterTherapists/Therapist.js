@@ -1,4 +1,5 @@
 import {id} from '../../helper/registerId.js'
+// import {therapies} from '../../app/therapies/therapies.js'
 
 class Therapist {
   
@@ -20,6 +21,7 @@ class Therapist {
       this.city = city;
       this.state = state;
       this.validateCurriculum(curriculum);
+      // this.validateTherapy(therapy);
       this.id = id;
     }
 
@@ -61,9 +63,20 @@ class Therapist {
       if(!curriculum){
         throw new Error ("Curriculum not is validate");
       }
-        this.curriculum = curriculum
+        this.curriculum = curriculum;
         return "Curriculum is validate."
     }
+
+    // validateTherapy(therapy){
+    //   this.therapy = therapy;
+  
+    //   if(therapies.indexOf(therapy) > -1){
+    //    return "Therapist registered with successful."
+       
+    //   }else {
+    //     throw new Error(false)
+    //   }
+    // }
 
     static Therapists ={
         therapistAba: [],
@@ -71,10 +84,4 @@ class Therapist {
         occupationalTherapist: []
     }
 }
-
-// 
-
-
-
-
 export {Therapist}

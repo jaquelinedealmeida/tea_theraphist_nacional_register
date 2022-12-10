@@ -1,8 +1,7 @@
-import {Therapist} from "./app/registerTherapists/therapist.js";
-import {TherapistAba} from "./app/registerTherapists/therapistAba.js"
-import {SpeechTherapy} from "./app/registerTherapists/speechTherapy.js"
-import {OccupationalTherapist} from "./app/registerTherapists/occupationalTherapist.js"
-
+import {Therapist} from "./app/registerTherapists/Therapist.js";
+import {TherapistAba} from "./app/registerTherapists/TherapistAba.js"
+import {SpeechTherapy} from "./app/registerTherapists/SpeechTherapy.js"
+import {OccupationalTherapist} from "./app/registerTherapists/OccupationalTherapist.js"
 
 
 const therapist = new Therapist("Maria Santana", "04567898710", "maria@email.com", "71 989898989", "Salvador", "Bahia", true);
@@ -12,7 +11,7 @@ therapist.valueCpf;
 console.log(therapist);
 console.log(therapist.valueCpf);
 // 
-const therapistAba = new TherapistAba("Samira Fernandes", "87694736781", "CRP 004-RJ", "samisf@email.com", "21 38398-9890", "Rio de Janeiro", "Rio de Janeiro", true, "BCPA");
+const therapistAba = new TherapistAba("Samira Fernandes", "87694736781", "CRP 004-RJ", "samisf@email.com", "21 38398-9890", "Rio de Janeiro", "Rio de Janeiro", true, "BCPA", );
 therapistAba.validateCertificationsAba("BCPA");
 therapistAba.valueCpf;
 therapistAba.validateCurriculum;
