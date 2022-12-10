@@ -1,4 +1,4 @@
-(https://media.giphy.com/media/f7YCJwa0XZbLvW3gav/giphy-downsized-large.gif)
+![Logo](https://media.giphy.com/media/f7YCJwa0XZbLvW3gav/giphy-downsized-large.gif)
 
 # Projeto de Conclusão do Bootcamp : Imersão JS - Turma 21 {Reprograma} | Dezembro de 2022 
 
