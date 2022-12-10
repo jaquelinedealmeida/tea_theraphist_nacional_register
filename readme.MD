@@ -1,6 +1,8 @@
+(https://media.giphy.com/media/f7YCJwa0XZbLvW3gav/giphy-downsized-large.gif)
+
 # Projeto de Conclusão do Bootcamp : Imersão JS - Turma 21 {Reprograma} | Dezembro de 2022 
 
-## TEA THERAPIST NACIONAL REGISTER PROJECT
+## NATIONAL REGISTRY OF TEA THERAPISTS
 
 ## Proposta
 
@@ -39,11 +41,14 @@ Babel.
 
 
 ### Melhorias a longo prazo
+ - Validação do terapeuta logo no primeiro acesso;
  - Reorganização dos métodos de validação em pasta do helper;
  - Refatoração dos métodos de validação;
+ - Inclusão de readline;
  - Inclusão de mais certificações; 
  - Inclusão de Banco de dados.
- - Inclusao de métodos de login e validação de senha.
+ - Inclusão de métodos de login e validação de senha.
+ - Inclusão de front-end.
 
 
 Fontes: 

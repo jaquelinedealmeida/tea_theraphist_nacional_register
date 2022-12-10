@@ -11,7 +11,6 @@ therapist.valueCpf;
 
 console.log(therapist);
 console.log(therapist.valueCpf);
-"================================"
 // 
 const therapistAba = new TherapistAba("Samira Fernandes", "87694736781", "CRP 004-RJ", "samisf@email.com", "21 38398-9890", "Rio de Janeiro", "Rio de Janeiro", true, "BCPA");
 therapistAba.validateCertificationsAba("BCPA");
