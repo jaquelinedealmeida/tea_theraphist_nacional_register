@@ -1,3 +1,5 @@
+import {id} from '../Helper/RegisterId.js'
+
 class Therapist {
   
   fullName = "";
@@ -28,7 +30,7 @@ class Therapist {
         throw new Error ("CPF number is not valid.");
       }
         this.#cpf = cpf;
-        console.log("CPF is validate.")
+        return "CPF is validate."
     }
 
     get valueCpf(){
@@ -68,10 +70,7 @@ class Therapist {
         speechTherapy: [],
         occupationalTherapist: []
     }
-
 }
-
-const id = Math.floor(Date.now() * Math.random()).toString(30);
 
 const therapist = new Therapist("Maria Santana", "04567898710", "maria@email.com", "71 989898989", "Salvador", "Bahia", true);
 console.log(therapist);
