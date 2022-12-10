@@ -1,10 +1,7 @@
-<h1 align="center">Logo TEA</h1>
+<h1 align="center">NATIONAL REGISTRY OF TEA THERAPISTS</h1>
 <div align="center">
   <img width="300" height="300" src="img/logo%20register%20therapist%20TEA.png" alt="logo register TES"/>
 </div>
-
-
-## NATIONAL REGISTRY OF TEA THERAPISTS
 
 ## Proposta
 
