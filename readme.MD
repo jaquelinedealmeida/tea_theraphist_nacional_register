@@ -1,6 +1,8 @@
-![Logo](https://media.giphy.com/media/f7YCJwa0XZbLvW3gav/giphy-downsized-large.gif)
+<h1 align="center">Logo TEA</h1>
+<div align="center">
+  <img width="300" height="300" src="img/logo%20register%20therapist%20TEA.png" alt="logo register TES"/>
+</div>
 
-# Projeto de Conclusão do Bootcamp : Imersão JS - Turma 21 {Reprograma} | Dezembro de 2022 
 
 ## NATIONAL REGISTRY OF TEA THERAPISTS
 
@@ -33,12 +35,23 @@ Dessa maneira, o projeto de cadastro nacional de terapeutas especialistas na are
 Javascript
 
 ## Requisitos técnicos
-Visual Studio Code;
 Node.js;
 Jest;
 Babel.
 
+## Instruções para instalação e rodar o projeto
 
+- Faça o clone
+
+- Para fazer o teste:
+
+npm run test
+```
+- Rodar a aplicação
+```
+node index.js
+```
+<br>
 
 ### Melhorias a longo prazo
  - Validação do terapeuta logo no primeiro acesso;
@@ -60,3 +73,5 @@ Fontes:
 ## Autora
 
 - [@jaquelinedealmeida](https://www.linkedin.com/in/jaqueline-de-almeida/)
+- 
+- #### Projeto de Conclusão do Bootcamp : Imersão JS - Turma 21 {Reprograma} | Dezembro de 2022 
