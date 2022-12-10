@@ -1,5 +1,5 @@
-import Therapist from './Therapist.js'
-import {certifications} from '../Certifications/Certifications.js'
+import {Therapist} from './therapist.js'
+import {certifications} from '../certifications/certifications.js'
 class SpeechTherapy extends Therapist {
 
   crfa = "";
@@ -31,11 +31,4 @@ class SpeechTherapy extends Therapist {
 
 }
 
-const speechTherapy = new SpeechTherapy("Fernanda Cristina", "45678398201", "CRFa 005-CE", "fcristina@email.com", "83 978945903", "Fortaleza", "Ceara", true, "Specialist");
-speechTherapy.validateCertificationsSpeechTherapy;
-
-console.log(speechTherapy);
-console.log(speechTherapy.validateCertificationsSpeechTherapy("Specialist"));
-
-
-export default SpeechTherapy;
+export {SpeechTherapy};

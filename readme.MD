@@ -28,7 +28,7 @@ A procura das famílias por profissionais referenciados se faz cada vez mais nec
 Dessa maneira, o projeto de cadastro nacional de terapeutas especialistas na area, facilita a busca das famílias e também de plano de saúde e empresas, como a Genial Care, que oferecem um serviço multidisciplinar.
 
 ## Linguagem utilizada
-Javascript.
+Javascript
 
 ## Requisitos técnicos
 Visual Studio Code;
@@ -36,11 +36,14 @@ Node.js;
 Jest;
 Babel.
 
+
+
 ### Melhorias a longo prazo
  - Reorganização dos métodos de validação em pasta do helper;
  - Refatoração dos métodos de validação;
  - Inclusão de mais certificações; 
- - Inclusão de Banco de dados para cadastro dos terapeutas.
+ - Inclusão de Banco de dados.
+ - Inclusao de métodos de login e validação de senha.
 
 
 Fontes: 

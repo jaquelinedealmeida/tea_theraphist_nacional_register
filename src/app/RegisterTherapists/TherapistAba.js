@@ -1,5 +1,5 @@
-import Therapist from './Therapist.js';
-import {certifications} from '../Certifications/Certifications.js'
+import {Therapist} from './therapist.js';
+import {certifications} from '../certifications/certifications.js'
 
 class TherapistAba extends Therapist {
 
@@ -29,13 +29,8 @@ class TherapistAba extends Therapist {
   }
 }
 
-const therapistAba = new TherapistAba("Samira Fernandes", "87694736781", "CRP 004-RJ", "samisf@email.com", "21 38398-9890", "Rio de Janeiro", "Rio de Janeiro", true, "BCPA");
-therapistAba.validateCertificationsAba("BCPA")
 
-console.log(therapistAba);
-console.log(therapistAba.validateCertificationsAba("BCPA"));
-
-export default TherapistAba;
+export {TherapistAba};
 
 
 

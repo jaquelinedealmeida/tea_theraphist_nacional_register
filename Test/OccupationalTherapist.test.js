@@ -1,4 +1,4 @@
-import OccupationalTherapist from "../src/app/RegisterTherapists/OccupationalTherapist.js"
+import OccupationalTherapist from "../src/app/registerTherapists/occupationalTherapist.js"
 describe("Test of the class OccupationalTherapist", () => {
 
   test("check if the instance OccupationalTherapy is correct.", () => {

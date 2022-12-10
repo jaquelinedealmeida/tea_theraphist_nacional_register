@@ -1,5 +1,5 @@
-import Therapist from './Therapist.js'
-import {certifications} from '../Certifications/Certifications.js'
+import {Therapist }from './therapist.js'
+import {certifications} from '../certifications/certifications.js'
 class OccupationalTherapist extends Therapist {
 
   crefito = "";
@@ -32,10 +32,5 @@ class OccupationalTherapist extends Therapist {
 
 }
 
-const occupationalTherapist = new OccupationalTherapist("Aurora Vidal", "96785489234", "CREFITO 007-AM", "vidalaurora@email.com", "92 937892010", "Manaus", "Amazonas", true, "CBIS");
-occupationalTherapist.validateCertificationsOccupational;
 
-console.log(occupationalTherapist);
-console.log(occupationalTherapist.validateCertificationsOccupational("CBIS"));
-
-export default OccupationalTherapist;
+export { OccupationalTherapist};
