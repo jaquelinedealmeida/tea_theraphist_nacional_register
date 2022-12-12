@@ -1,6 +1,6 @@
 <h1 align="center">NATIONAL REGISTRY OF TEA THERAPISTS</h1>
 <div align="center">
-  <img width="300" height="300" src="img/logo%20register%20therapist%20TEA.png" alt="logo register TES"/>
+  <img width="300" height="300" src="img/Logo%20Favo.svg" alt="logo favo/>
 </div>
 
 ## Proposta
@@ -15,7 +15,7 @@ Um distúrbio caracterizado pela alteração das funções do neurodesenvolvimen
 O diagnostico precoce permite o desenvolvimento de estímulos para a dependência e qualidade de vida das pessoas.
 
 
-### TEA nas crianças  
+### TEA de crianças a adultos  
 As causas do autismo sao majoritariamente genéticas, além de questões ambientais, em menor parte.
 
 Os sinais nas crianças podem aparecer entre 2 a 3 anos, com uma predominância nos meninos.
@@ -28,30 +28,30 @@ A procura das famílias por profissionais referenciados se faz cada vez mais nec
 
 Dessa maneira, o projeto de cadastro nacional de terapeutas especialistas na area, facilita a busca das famílias e também de plano de saúde e empresas, como a Genial Care, que oferecem um serviço multidisciplinar.
 
-## Linguagem utilizada
-Javascript
+## Linguagem utilizada:
+- Javascript
 
-## Requisitos técnicos
-Node.js;
-Jest;
-Babel.
+## Requisitos técnicos:
+- Node.js;
+- Jest;
+- Babel.
 
 ## Instruções para instalação e rodar o projeto
 
-- Faça o clone
+- Faça o clone, faca download ou copie os códigos. 
 
 - Para fazer o teste:
-
+```
 npm run test
 ```
 - Rodar a aplicação
+
 ```
 node index.js
 ```
-<br>
 
 ### Melhorias a longo prazo
- - Validação do terapeuta logo no primeiro acesso;
+ - Validação terapeutas conforme area de atuação;
  - Reorganização dos métodos de validação em pasta do helper;
  - Refatoração dos métodos de validação;
  - Inclusão de readline;
@@ -65,6 +65,8 @@ Fontes:
 [Ministério da Saúde](https://www.gov.br/saude/pt-br/assuntos/noticias/2022/abril/tea-saiba-o-que-e-o-transtorno-do-espectro-autista-e-como-o-sus-tem-dado-assistencia-a-pacientes-e-familiares)
 
 [Ministério da Saúde - Linha de Cuidado](https://linhasdecuidado.saude.gov.br/portal/transtorno-do-espectro-autista/definicao-tea/)
+
+[Genial Careg](https://linhasdecuidado.saude.gov.br/portal/transtorno-do-espectro-autista/definicao-tea/)
 
 
 ## Autora
