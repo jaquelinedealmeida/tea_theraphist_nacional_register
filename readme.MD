@@ -1,6 +1,6 @@
 <h1 align="center">NATIONAL REGISTRY OF TEA THERAPISTS</h1>
 <div align="center">
-  <img width="300" height="300" src="img/Logo%20Favo.svg" alt="logo favo/>
+  <img width="300" height="300" src="img/Logo%20Favo.svg" alt="logo favo"/>
 </div>
 
 ## Proposta
@@ -66,7 +66,7 @@ Fontes:
 
 [Ministério da Saúde - Linha de Cuidado](https://linhasdecuidado.saude.gov.br/portal/transtorno-do-espectro-autista/definicao-tea/)
 
-[Genial Careg](https://linhasdecuidado.saude.gov.br/portal/transtorno-do-espectro-autista/definicao-tea/)
+[Genial](https://linhasdecuidado.saude.gov.br/portal/transtorno-do-espectro-autista/definicao-tea/)
 
 
 ## Autora
