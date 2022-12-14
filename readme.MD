@@ -47,17 +47,16 @@ Dessa maneira, o projeto de cadastro nacional de terapeutas especialistas na are
 **Javascript**
 
 ## Requisitos técnicos:
-**Node.js**;
-**Jest**;
-**Babel**.
-
+- Node.js;
+- Jest;
+- Babel.
 
 ## Instruções para instalação
 
 - Faça o clone, faca download ou copie os códigos. 
 - Instale o Node.js
 - Utilize o npm para rodar o node:
-- 
+  
 ```bash
 npm install
 ```
@@ -80,7 +79,7 @@ Para rodar os testes, rode o seguinte comando:
 - Instale o jest
 
 ```bash
-  - npm install --save-dev jest
+  npm install --save-dev jest
 ```
 
 ```bash
