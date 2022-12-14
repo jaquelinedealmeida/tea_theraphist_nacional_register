@@ -5,14 +5,14 @@ class OccupationalTherapist extends Therapist {
   crefito = "";
   certificationsOccupationalTherapist = "";
 
-  constructor(fullName, cpf, crefito, email, telephone, city, state, curriculum, certificationsOccupationalTherapist) { 
+  constructor(fullName, cpf, crefito, email, telephone, city, state, therapy, curriculum,certificationsOccupationalTherapist) { 
 
     if (!crefito) {
       throw new Error("It's necessary the CREFITO's number.");
     } 
     console.log("The CREFITO's number is correct.");
 
-    super(fullName, cpf, email, telephone, city, state, curriculum) 
+    super(fullName, cpf, email, telephone, city, state, therapy, curriculum,) 
     this.crefito = crefito;
     this.validateCertificationsOccupational(certificationsOccupationalTherapist);
 

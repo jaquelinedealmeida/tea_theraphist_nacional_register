@@ -1,8 +1,8 @@
 import {id} from '../../helper/registerId.js'
-// import {therapies} from '../../app/therapies/therapies.js'
+import {therapies} from '../../app/therapies/therapies.js'
 
 class Therapist {
-  
+  id;
   fullName = "";
   #cpf = "";
   email = "";
@@ -10,9 +10,9 @@ class Therapist {
   city = "";
   state = "";
   curriculum = false;
-  id;
-
-    constructor(fullName, cpf, email, telephone, city, state, curriculum){
+  therapy = "";
+  
+    constructor(fullName, cpf, email, telephone, city, state, therapy, curriculum){
       
       this.fullName = fullName;
       this.validateCpf(cpf)
@@ -21,7 +21,7 @@ class Therapist {
       this.city = city;
       this.state = state;
       this.validateCurriculum(curriculum);
-      // this.validateTherapy(therapy);
+      this.validateTherapy(therapy);
       this.id = id;
     }
 
@@ -67,21 +67,21 @@ class Therapist {
         return "Curriculum is validate."
     }
 
-    // validateTherapy(therapy){
-    //   this.therapy = therapy;
+    validateTherapy(therapy){
+      this.therapy = therapy;
   
-    //   if(therapies.indexOf(therapy) > -1){
-    //    return "Therapist registered with successful."
+      if(therapies.indexOf(therapy) > -1){
+       return "Therapist registered with successful."
        
-    //   }else {
-    //     throw new Error(false)
-    //   }
-    // }
+      }else {
+        throw new Error("Therapy not is validate.")
+      }
+    }
 
     static Therapists ={
-        therapistAba: [],
-        speechTherapy: [],
-        occupationalTherapist: []
+      therapistAba: [],
+      speechTherapy: [],
+      occupationalTherapist: []
     }
 }
 export {Therapist}

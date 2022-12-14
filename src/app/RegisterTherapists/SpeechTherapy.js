@@ -5,13 +5,13 @@ class SpeechTherapy extends Therapist {
   crfa = "";
   certificationsSpeechTherapy = "";
 
-  constructor(fullName, cpf, crfa, email, telephone, city, state, curriculum, certificationsSpeechTherapy) { 
+  constructor(fullName, cpf, crfa, email, telephone, city, state, therapy, curriculum,certificationsSpeechTherapy) { 
     if (!crfa) {
       throw new Error("It's necessary the CRFA's number.");
     } 
     console.log("The CRFA's number is correct.");
 
-    super(fullName, cpf, email, telephone, city, state, curriculum) 
+    super(fullName, cpf, email, telephone, city, state, therapy, curriculum,) 
     this.crfa = crfa;
     this.validateCertificationsSpeechTherapy(certificationsSpeechTherapy);
 

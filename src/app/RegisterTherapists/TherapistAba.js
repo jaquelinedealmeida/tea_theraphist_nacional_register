@@ -6,13 +6,13 @@ class TherapistAba extends Therapist {
   crp = "";
   certificationsAba = "";
 
-  constructor(fullName, cpf, crp, email, telephone, city, state, curriculum, certificationsAba) { 
+  constructor(fullName, cpf, crp, email, telephone, city, state, therapy, curriculum,certificationsAba) { 
     if (!crp) {
       throw new Error("It's necessary the CRP's number.");
     } 
     console.log("The CRP's number is correct.");
     
-    super(fullName, cpf, email, telephone, city, state, curriculum) 
+    super(fullName, cpf, email, telephone, city, state, therapy, curriculum,) 
     this.crp = crp;
     this.validateCertificationsAba(certificationsAba);
   }
