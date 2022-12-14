@@ -1,3 +1,3 @@
-// const therapies = [ "Occupational Therapy", "Speech Therapy", "ABA"];
+const therapies = [ "Occupational Therapy", "Speech Therapy", "ABA"];
 
-// export {therapies};
+export {therapies};
