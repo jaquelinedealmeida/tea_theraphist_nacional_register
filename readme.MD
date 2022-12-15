@@ -3,6 +3,8 @@
   <img width="300" height="300" src="img/Logo%20Favo.svg" alt="logo favo"/>
 </div>
 
+#### Projeto de Conclusão do Bootcamp : Imersão JS - Turma 21 {Reprograma} | Dezembro de 2022 
+
 ## Proposta
 
 Este projeto e desenvolvido com base nos aprendizados e conhecimentos adquiridos na heath tech Genial Care, empresa que trabalho como Product Engineer desde setembro/2022.
@@ -10,12 +12,14 @@ Este projeto e desenvolvido com base nos aprendizados e conhecimentos adquiridos
 Inspirada nas acoes realizadas pela Genial e, atenta as possibilidades e desafios em encontrar profissionais habilitados a atendimento de TEA para crianças, conforme relato de cuidadoras e profissionais da area. 
 
 ## O que é TEA?
+
 TEA e a sigla para Transtorno do Espectro Autista. 
 Um distúrbio caracterizado pela alteração das funções do neurodesenvolvimento do individuo, interferindo na capacidade de comunicação, linguagem, interação social e comportamento.
 O diagnostico precoce permite o desenvolvimento de estímulos para a dependência e qualidade de vida das pessoas.
 
 
 ### TEA de crianças a adultos  
+
 As causas do autismo sao majoritariamente genéticas, além de questões ambientais, em menor parte.
 
 * Os transtornos do espectro autista começam na infância e tendem a persistir na adolescência e na idade adulta.
@@ -35,16 +39,16 @@ A procura por profissionais referenciados se faz cada vez mais necessária, ja q
 
 Dessa maneira, o projeto de cadastro nacional de terapeutas especialistas na area facilita a busca de pessoas e famílias que precisam de acompanhamento, além dos  planos de saúde e empresas, como a Genial Care, que tem como foco o atendimento de crianças ate 5 anos.
 
-### Regras de negocio
+## Regras de negocio
 
 - Os terapeutas cadastrados precisam ser da area de Psicologia, Fonoaudiologia e Terapia Ocupacional;
 - Os psicólogos precisam ser certificações, pos-graduação, mestre ou doutorado em ABA.
 - Os terapeutas ocupacionais precisam ter certificações, especialização, mestre ou doutorado em integração sensorial.
 -  Os terapeutas ocupacionais precisam ter certificações, especialização, mestre ou doutorado em TEA.
--  
 
 ## Linguagem utilizada:
-**Javascript**
+
+- Javascript
 
 ## Requisitos técnicos:
 - Node.js;
@@ -107,9 +111,12 @@ Fontes:
 
 
 ## Autora
+- [@jaquelinedealmeida](h)
+  ## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://jaquelinedealmeida.github.io/my-portfolio-challenge3/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](ttps://www.linkedin.com/in/jaqueline-de-almeida/)
 
-- [@jaquelinedealmeida](https://www.linkedin.com/in/jaqueline-de-almeida/)
-- 
-- #### Projeto de Conclusão do Bootcamp : Imersão JS - Turma 21 {Reprograma} | Dezembro de 2022 
+
+
 
 ![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
