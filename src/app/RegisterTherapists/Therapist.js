@@ -17,7 +17,7 @@ class Therapist {
       this.fullName = fullName;
       this.validateCpf(cpf)
       this.validateEmail(email);
-      this.validateTelephone (telephone);
+      this.validateTelephone(telephone);
       this.city = city;
       this.state = state;
       this.validateCurriculum(curriculum);
@@ -32,7 +32,7 @@ class Therapist {
         throw new Error ("CPF number is not valid.");
       }
         this.#cpf = cpf;
-        return "CPF is validate."
+        return true
     }
 
     get valueCpf(){
@@ -46,7 +46,7 @@ class Therapist {
         throw new Error ("Address e-mail is not valid.");
       }
         this.email = email;
-        return "E-mail address is correct."
+        return true 
     }
 
     validateTelephone(telephone){
@@ -56,7 +56,18 @@ class Therapist {
         throw new Error ("Telephone number is not valid.");
       }
         this.telephone = telephone;
-        return "Telephone number is correct."
+        return true 
+    }
+
+    validateTherapy(therapy){
+      this.therapy = therapy;
+
+      if(therapies.indexOf(therapy) > -1){
+       return "Therapist registered with successful."
+       
+      }else {
+        throw new Error ("Therapy not is validate");
+      }
     }
 
     validateCurriculum(curriculum){
@@ -65,17 +76,6 @@ class Therapist {
       }
         this.curriculum = curriculum;
         return "Curriculum is validate."
-    }
-
-    validateTherapy(therapy){
-      this.therapy = therapy;
-  
-      if(therapies.indexOf(therapy) > -1){
-       return "Therapist registered with successful."
-       
-      }else {
-        throw new Error("Therapy not is validate.")
-      }
     }
 
     static Therapists ={
