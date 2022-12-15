@@ -1,4 +1,4 @@
-import {SpeechTherapy} from "../src/app/registerTherapists/SpeechTherapy.js"
+import {SpeechTherapy} from "../src/app/registerTherapists/speechTherapy.js"
 describe("Test of the class SpeechTherapy", () => {
 
   test("check if the instance SpeechTherapy is correct.", () => {

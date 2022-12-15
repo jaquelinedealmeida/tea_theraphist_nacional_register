@@ -1,4 +1,4 @@
-import {Therapist} from "../src/app/registerTherapists/Therapist.js"
+import {Therapist} from "../src/app/registerTherapists/therapist.js"
 describe("Test of the class Therapist", () => {
  
     test("Check if the instance Therapist is correct.", () => {
@@ -8,7 +8,7 @@ describe("Test of the class Therapist", () => {
 
     test("Check if CPF is validate", () => {
         const therapist = new Therapist("Maria Santana", "04567898710", "maria@email.com", "71 989898989", "Salvador", "Bahia", "ABA", true,);
-        expect(therapist.validateCpf("04567898710")).toBe("CPF is validate.");
+        expect(therapist.validateCpf("04567898710")).toBe(true);
     });
 
     test("Check if number CPF is invalidate. ", () => {
@@ -18,7 +18,7 @@ describe("Test of the class Therapist", () => {
 
     test("Check if registered e-mail is correct.", () => {
         const therapist = new Therapist("Maria Santana", "04567898710", "maria@email.com", "71 989898989", "Salvador", "Bahia", "ABA", true,);
-        expect(therapist.validateEmail("maria@email.com")).toBe("E-mail address is correct.");
+        expect(therapist.validateEmail("maria@email.com")).toBe(true);
     });
 
     test("Check if address e-mail is incorrect.", () => {
@@ -28,7 +28,7 @@ describe("Test of the class Therapist", () => {
 
     test("Check if telephone number is correct.", () => {
         const therapist = new Therapist("Maria Santana", "04567898710", "maria@email.com", "71 989898989", "Salvador", "Bahia", "ABA", true,);
-        expect(therapist.validateTelephone("71 98989-8989")).toBe("Telephone number is correct.");
+        expect(therapist.validateTelephone("71 98989-8989")).toBe(true);
     });
 
     test("Check if address e-mail is incorrect.", () => {
@@ -43,7 +43,7 @@ describe("Test of the class Therapist", () => {
 
     test("Check if therapy not is validate", () => {
         const therapist = new Therapist("Maria Santana", "04567898710", "maria@email.com", "71 989898989", "Salvador", "Bahia", "ABA", true,);
-        expect(() => therapist.validateTherapy()).toThrow("Therapy not is validate.");
+        expect(() => therapist.validateTherapy()).toThrow("Therapy not is validate");
     });
 
     test("Check registration of validate curriculum", () => {
