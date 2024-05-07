@@ -7,7 +7,7 @@
 
 ## Proposta
 
-Este projeto e desenvolvido com base nos aprendizados e conhecimentos adquiridos na heath tech Genial Care, empresa que trabalho como Product Engineer desde setembro/2022.
+Este projeto é desenvolvido com base nos aprendizados e conhecimentos adquiridos na heath tech Genial Care, empresa que trabalho como Product Engineer desde setembro/2022.
 
 Inspirada nas acoes realizadas pela Genial e, atenta as possibilidades e desafios em encontrar profissionais habilitados a atendimento de TEA para crianças, conforme relato de cuidadoras e profissionais da area. 
 
